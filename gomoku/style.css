@@ -1,0 +1,53 @@
+body {
+  background-color: wheat;
+}
+
+h1 {
+  margin-top: 0rem;
+  margin-left: 2rem;
+  padding: 1rem;
+  background-color: darkred;
+  color: seashell;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 2rem;
+}
+
+h3 {
+  margin-left: 2rem;
+}
+
+.board {
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  height: 480px;
+  width: 480px;
+  background-color: chocolate;
+  margin: auto;
+}
+
+.board div {
+  border: 1px solid;
+  height: 30px;
+  width: 30px;
+  /* border-radius: 20px; */
+  /* margin-top: 10px;
+  margin-left: 10px; */
+}
+
+.player-one {
+  background-color: Black;
+  border-radius: 15px;
+}
+
+.player-two {
+  background-color: White;
+  border-radius: 15px;
+}
+
+/* .hidden {
+  display: none;
+} */
